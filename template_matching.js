@@ -6,13 +6,13 @@ $(function() {
 
   //こんにちは
   function kon1 (evt) {
-    $("#sign_kon1").text("kon1_OK");
+    $("#sign_kon1").text("①OK！");
     toggleA = true;
   }
 
   function kon2 (evt) {
     if (toggleA == true){
-      $('#sign_kon2').text('kon2_OK');
+      $('#sign_kon2').text('②OK！');
       toggleB = true;
 
       if ((toggleA == true) && (toggleB == true)){
@@ -21,7 +21,7 @@ $(function() {
     }
 
     if (toggleC == true){
-      $('#sign_konban2').text('konban2_OK');
+      $('#sign_konban2').text('②OK!');
       toggleB = true;
 
       if ((toggleC == true) && (toggleB == true)){
@@ -32,7 +32,7 @@ $(function() {
 
   //こんばんは
   function konban1 (evt) {
-    $("#sign_konban1").text("konban1_OK");
+    $("#sign_konban1").text("①OK！");
     toggleC = true;
   }
 
